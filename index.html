@@ -1,183 +1,82 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-<title>|| Home ||</title>
-<meta charset="utf-8">
 
-<!-- Open Sans Font -->
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
-
-<!-- Normalize CSS -->
-<link rel="stylesheet" type="text/css" href="normalize.css">
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-<!-- Font Awesome Icon Import -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-<!-- 
-Try to get em used instead of px
-Do some Javascript!
--->
 
+	<title> || Home ||</title>
 </head>
 
 <style>
-
-*{
-    font-family: 'Open Sans', Sans-serif;
-    color:#FEFFFF;
-  }
-
- @media (min-width:300px){
-   
-    .header-content{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     text-align: center;
-
-   }
-
-    .header h1{
-    	
-    	font-size: 2.5em;
-    }  
-    .header p{
-    	
-    	font-size: .5em;
-    } 
-    .navbar-nav{
-      
-      flex-direction: column;
-      font-size:1.5em;
-      justify-content: center;
-      text-align: center;
-
-    }
-  
-    .content{
- 		display:flex;
- 		flex-direction: row;
- 		flex-wrap: wrap;
- 		font-size: 2.5em;
-    }
-
-    .item1{
-
-
-    }
-    .item2{
-
-    }
- 
-   .footer{
-      display: flex;
-      flex-direction: center;
-   	 font-size: 1em;
-   }
-
-  }
-
-.header{
- height: auto;  
-    margin: 0 auto; 
-    width: 100%; 
 	
- background-image:url('fog.jpg');
-    background-size: cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-}
+	body{
+	
+		background-image: url('triangle.jpg');
+		color:#FEFFFF;
 
-.content {
-    height:auto;
-    width: 100%; 
-    padding: 5%;
+	}
 
-  background-image: url('triangle.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 50px rgba(0,0,0,0.5);
-}
+	.header, .navbar{
+	
+		text-align: center;
+	
+	}
 
-.socialMedia{
-   text-decoration: none;
 
-}
 
- .footer{  
- 	height:auto;
-    width: 100%; 
-    padding: 5%;
- 	 background-image:url('fog-bottom.jpg');
-  	background-size:cover; 
-    background-position:center;
-    background-repeat:no-repeat;
-}
+
 
 </style>
 
-  <body>
 
 
-<div class="header container-fluid">
+<body>
 
-<nav class="navbar navbar-dark">
-		<div class="container-fluid"> 
-		  <div class="container-fluid">
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Music</a></li>
-			</ul>
-		  </div> 
-		</div>
-</nav>
+<nav class = "navbar navbar-inverse" role="navigation">
    
- <div class="container-fluid">
-     <div class="container-fluid header-content">
-	   
-			<h1>Dublin Anondson <span><p>Programmer || Musician</p></span></h1>
-			
-     	 
-     </div>
+   <div class = "navbar-header">
+      <button type="button" class="navbar-toggle" 
+         data-toggle="collapse" data-target="#example-navbar-collapse">
+         <span class = "sr-only">Toggle navigation</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>		
+      <a class = "navbar-brand" href = "#">Hello.</a>
+   </div>
+   
+   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+	
+      <ul class = "nav navbar-nav">
+         <li class = "active"><a href = "#">Home</a></li>
+         <li><a href = "#">Projects</a></li>
+         <li><a href = "#">Music</a></li>	
+      </ul>
+   </div>
+</nav>
+	
+<div class="header container-fluid">
+	
+<h1>Dublin Anondson</h1>
+<p>Programmer || Musician</p>
+
 </div>
-</div>
+
+<!-- jQuery -->
+<script type="text/javascript" src="jquery-2.2.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 
 
-<div class="content container-fluid">
- <div class="socialMedia container-fluid">
-    <div class="item1">
-      <a href="http://steamcommunity.com/id/pinknobody" target="_back"><i class="fa fa-steam"></i></a>
-    </div>
-    <div class="item2">
-      <a href="https://www.linkedin.com/in/dublin-anondson-4b562793" target="_back"><i class="fa fa-linkedin"></i></a>
-    </div>
-    <div class="item3">
-      <a href="https://www.instagram.com/dublin_anondson/" target="_back"><i class="fa fa-instagram"></i></a>
-    </div>
-    <div class="item4">
-      <a href="http://stackoverflow.com/users/5616472/dublin-anondson" target="_back"><i class="fa fa-stack-overflow"></i></a>
-    </div>
-  </div>
-</div>
+</body>
 
- <div class="footer container">
-  <div class="container-fluid"> 
-    <div class="container">
-      <p>&copy; Dublin Anondson</p>
-    </div>
-  </div>
- </div>
-
-  </body>
 </html>
