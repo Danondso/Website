@@ -10,6 +10,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
 	<title> || Home ||</title>
@@ -24,14 +26,78 @@
 
 	}
 
-	.header, .navbar{
+	.header{
 	
 		text-align: center;
-	
+		min-height:400px;
+		width:100%;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
 	}
 
+	.navbar{
 
+		text-align: center;
 
+	}
+
+ /*--content-top--*/
+.top-grid i{
+	font-size: 2.6em;
+	color: #fff;
+    border-radius: 100px;
+    width: 95px;
+    height: 95px;
+    text-align: center;
+    line-height: 2.2em;
+    border: 3px solid #fff;
+}
+
+.top-grid {
+	text-align: center;
+	border:none;
+	padding:2em 1em;
+	    background-color: #101010;
+}
+.grid-top{
+	position: relative;
+	    cursor: pointer;
+}
+.content-top{
+	position:relative;
+	padding: 11.5em 0;
+}
+.content-top1{
+	position:absolute;
+	z-index: 999;
+	top: -6.5%;
+}
+.top-grid  h3{
+	font-size:1.3em;
+	
+	color:#fff;
+	margin:1em 0 0.5em ;
+}
+.top-grid  p{
+	color: #fff;
+	line-height: 1.9em;
+	font-size: 1em;
+}
+
+.grid-top:hover .top-grid i{
+	color:#000;
+	border: 3px solid #000;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	
+}
+/*--//content-top--*/
 
 
 </style>
@@ -70,8 +136,45 @@
 
 </div>
 
+<div class="container">
+		<!--content-top-->
+		<div class="content-top" >
+			<div class="content-top1">
+			  	<div class=" col-sm-4 grid-top">
+					<div class="top-grid">
+					 <i class="fa fa-home"></i>
+					 
+						<h3>Home</h3>
+						<p>This is my foray into website hosting and server-side application development.</p>
+					</div>
+				</div>
+				 	<div class=" col-sm-4 grid-top">
+					<div class="top-grid">
+					 <i class="fa fa-github-alt"></i>
+					 
+						<h3>Projects</h3>
+						<p>You can check some of my projects out here!</p>
+				</div>
+				</div>
+				 	<div class=" col-sm-4 grid-top">
+					<div class="top-grid">
+					 <i class="fa fa-microphone"></i>
+					 
+						<h3>Music</h3>
+						<p>Not only am I a programmer, I'm a musician too! Wowie Zowie.</p>
+				</div>
+				</div>
+			<div class="clearfix"> </div>
+		</div>
+		</div>
+		<!--//content-top-->
+</div>
+
+
+
+
 <!-- jQuery -->
-<script type="text/javascript" src="jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
