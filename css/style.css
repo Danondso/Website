@@ -76,3 +76,30 @@ body{
     -moz-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
+
+.technology{
+      text-align:center;
+      cursor:pointer;
+      padding:1em .5em;
+      
+}
+.technology .btn{
+    background-color:#000;
+    border-radius: 100px;
+}
+
+.technology p {
+    color: #fff;
+	line-height: 1.9em;
+	font-size: 2em;
+}
+
+.technology-icon {
+ opacity:0;
+}
+
+.java{
+    opacity:0;
+    border:none;
+    color:#000;
+}
