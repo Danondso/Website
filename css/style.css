@@ -43,23 +43,20 @@ body{
 	    background-color: #101010;
 }
 .grid-top{
-	position: relative;
+    position:relative;
 	    cursor: pointer;
 }
 .content-top{
 	position:relative;
-	padding: 11.5em 0;
+	padding: 6.5em 0;
 }
-.content-top1{
-	position:absolute;
-	z-index: 999;
+.content-top1{	
 	top: -6.5%;
 }
 .top-grid  h3{
 	font-size:1.3em;
-	
 	color:#fff;
-	margin:1em 0 0.5em ;
+	margin:1em 0 0.5em;
 }
 .top-grid  p{
 	color: #fff;
@@ -77,29 +74,38 @@ body{
     -ms-transition: 0.5s all;
 }
 
+.content-mid{
+    width:auto;
+    background-image: url('../images/content-background.jpg');
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 1);
+    text-align:center;
+	padding: 11.5em 0;
+
+}
+
+.content-mid1{
+	    
+}
+
 .technology{
-      text-align:center;
+     text-align:center;
       cursor:pointer;
       padding:1em .5em;
       
 }
 .technology .btn{
-    background-color:#000;
-    border-radius: 100px;
+    background-color:transparent;
+    color:#fff;
 }
 
 .technology p {
     color: #fff;
 	line-height: 1.9em;
-	font-size: 2em;
-}
-
-.technology-icon {
- opacity:0;
+	font-size: 1.5em;
 }
 
 .java{
-    opacity:0;
     border:none;
     color:#000;
 }
+
