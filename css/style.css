@@ -33,7 +33,7 @@ body{
     height: 95px;
     text-align: center;
     line-height: 2.2em;
-    border: 3px solid #fff;
+    border: 3px solid #000;
 }
 
 .top-grid {
@@ -65,8 +65,8 @@ body{
 }
 
 .grid-top:hover .top-grid i {
-    color: #000;
-    border: 3px solid #000;
+    color: burlywood;
+    border: 3px solid #fff;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -83,9 +83,7 @@ body{
 
 }
 
-.content-mid1{
-	    
-}
+.content-mid1 {}
 
 .technology{
      text-align:center;
@@ -102,10 +100,13 @@ body{
     color: #fff;
 	line-height: 1.9em;
 	font-size: 1.5em;
+    display:block;
 }
 
-.java{
+.techInfo{
     border:none;
     color:#000;
 }
-
+    .techInfo:hover {
+        
+    }
