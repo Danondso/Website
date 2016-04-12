@@ -124,8 +124,12 @@ body{
     text-align:center;
     padding: 1.5em 0;
 }
-
 .content-mid2 a{
     color:#fff;
     font-size:5em;
+}
+
+.footer p{
+    text-align:center;
+    font-size:1.5em;
 }
