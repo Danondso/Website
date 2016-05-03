@@ -118,6 +118,17 @@ body{
 }
 
 .feedagram{
-    
+
+}
+
+.feedagram img{
+    height:auto;
+    width:auto;
     margin: 0 auto;
+}
+
+.carousel-control{
+
+    padding: 2.5em 0 0;
+    font-size:6.5em;
 }
