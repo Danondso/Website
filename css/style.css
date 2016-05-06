@@ -120,33 +120,34 @@ body{
     color:#000;
 }
 
-<<<<<<< HEAD
 .feedagram{
 
 }
 
 .feedagram img{
-    height:auto;
-    width:auto;
+    height:30%;
+    width:30%;
     margin: 0 auto;
 }
 
-.carousel-control{
-
+.carousel-control {
     padding: 2.5em 0 0;
-    font-size:6.5em;
-=======
+    font-size: 6.5em;
+}
 .content-mid2{
+    background-color:#101010;
     text-align:center;
     padding: 1.5em 0;
 }
-.content-mid2 a{
+.mailto a{
     color:#fff;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 1);
     font-size:5em;
 }
 
 .footer p{
+   
     text-align:center;
     font-size:1.5em;
->>>>>>> origin/master
+
 }
