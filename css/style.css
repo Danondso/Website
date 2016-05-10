@@ -120,7 +120,7 @@ body{
     color:#000;
 }
 
-<<<<<<< HEAD
+
 .feedagram{
 
 }
@@ -131,11 +131,11 @@ body{
     margin: 0 auto;
 }
 
-.carousel-control{
-
+.carousel-control {
     padding: 2.5em 0 0;
-    font-size:6.5em;
-=======
+    font-size: 6.5em;
+}
+
 .content-mid2{
     text-align:center;
     padding: 1.5em 0;
@@ -148,5 +148,5 @@ body{
 .footer p{
     text-align:center;
     font-size:1.5em;
->>>>>>> origin/master
+
 }
