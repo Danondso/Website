@@ -120,13 +120,14 @@ body{
     color:#000;
 }
 
+
 .feedagram{
 
 }
 
 .feedagram img{
-    height:30%;
-    width:30%;
+    height:auto;
+    width:auto;
     margin: 0 auto;
 }
 
@@ -134,19 +135,17 @@ body{
     padding: 2.5em 0 0;
     font-size: 6.5em;
 }
+
 .content-mid2{
-    background-color:#101010;
     text-align:center;
     padding: 1.5em 0;
 }
-.mailto a{
+.content-mid2 a{
     color:#fff;
-    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 1);
     font-size:5em;
 }
 
 .footer p{
-   
     text-align:center;
     font-size:1.5em;
 
