@@ -1,6 +1,6 @@
 ﻿/* Content-Top */
 body{
-	
+
 		background-image: url('../images/background.jpg');
 		background-repeat:no-repeat;
         background-size:cover;
@@ -9,12 +9,12 @@ body{
 	}
 
 	.header{
-	
+
 		text-align: center;
 		min-height:400px;
 		width:100%;
 	background-size:cover;
-   
+
 	-webkit-background-size:cover;
 	-o-background-size:cover;
 	-moz-background-size:cover;
@@ -53,7 +53,7 @@ body{
 	position:relative;
 	padding: 6.5em 0;
 }
-.content-top1{	
+.content-top1{
 	top: -6.5%;
 }
 .top-grid  h3{
@@ -89,7 +89,7 @@ body{
      text-align:center;
       cursor:pointer;
       padding:1em;
-      
+
 }
 
 .technology i{
@@ -105,7 +105,7 @@ body{
      color: #fff;
 	line-height: 1.9em;
      text-align:center;
- 
+
 }
 
 .technology p, h3 {
@@ -120,20 +120,42 @@ body{
     color:#000;
 }
 
+<<<<<<< HEAD:static/css/style.css
+=======
 
 .feedagram{
+>>>>>>> origin/master:css/style.css
 
+.feedagram{
+font-size:1.5em;
+width:100%;
+background-color: #101010;
+bottom:20px;
 }
 
 .feedagram img{
+<<<<<<< HEAD:static/css/style.css
+    border-radius:25px;
+    max-height:70%;
+    max-width:70%;
+=======
     height:auto;
     width:auto;
+>>>>>>> origin/master:css/style.css
     margin: 0 auto;
+		box-shadow: 0 0 50px 0 rgba(0, 0, 0, 1);
+
 }
 
-.carousel-control {
-    padding: 2.5em 0 0;
-    font-size: 6.5em;
+.feedagram-description{
+	display:block;
+	text-align: center;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+	padding: 2.5em 0 0;
+	font-size: 6.5em;
 }
 
 .content-mid2{
